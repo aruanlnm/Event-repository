@@ -1,0 +1,113 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/*
+ * Globals
+ */
+
+
+/* Links */
+
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+
+
+/* Custom default button */
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none;
+    /* Prevent inheritance from `body` */
+    background-color: #fff;
+    border: .05rem solid #fff;
+}
+
+
+/*
+ * Header
+ */
+
+.header {
+    width: 100%;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+    width: 100%;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #333;
+}
+
+
+/* Search bar */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 1px solid #8c8c8c;
+    border-right: none;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus {
+    color: #474545;
+}
+
+.searchButton {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #8c8c8c;
+    background: #474545;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+/*Resize the wrap to see the search bar change!*/
+
+.wrap {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
